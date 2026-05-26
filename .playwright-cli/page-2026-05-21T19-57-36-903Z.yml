@@ -1,0 +1,92 @@
+- main [ref=e2]:
+  - region "A weekly house note for work in motion." [ref=e3]:
+    - generic [ref=e4]:
+      - img "Summit House" [ref=e5]
+      - generic [ref=e6]:
+        - generic [ref=e7]: Summit House Digest
+        - generic [ref=e8]: Issue 04
+        - generic [ref=e9]: Week of May 25
+      - heading "A weekly house note for work in motion." [level=1] [ref=e10]
+      - paragraph [ref=e11]: The useful things, the sharp things, and the human things from across the studio.
+    - complementary "Issue sections" [ref=e12]:
+      - link "Week" [ref=e13] [cursor=pointer]:
+        - /url: "#week"
+      - link "Feature" [ref=e14] [cursor=pointer]:
+        - /url: "#feature"
+      - link "BU Notes" [ref=e15] [cursor=pointer]:
+        - /url: "#business-units"
+      - link "Lessons" [ref=e16] [cursor=pointer]:
+        - /url: "#lessons"
+      - link "Sharing" [ref=e17] [cursor=pointer]:
+        - /url: "#sharing"
+  - region "At a glance" [ref=e18]:
+    - heading "At a glance" [level=2] [ref=e19]
+  - region "Audrey is turning the Digest into a real weekly ritual." [ref=e21]:
+    - heading "Audrey is turning the Digest into a real weekly ritual." [level=2] [ref=e23]
+    - generic "Summit House brand imagery" [ref=e24]:
+      - figure [ref=e25]:
+        - img "Film set editorial texture" [ref=e26]
+      - figure [ref=e27]:
+        - img "Studio chair against carmine backdrop" [ref=e28]
+      - figure [ref=e29]:
+        - img "Halftone blue sky and green hillside" [ref=e30]
+      - figure [ref=e31]:
+        - img "Layered paper and blueprint still life" [ref=e32]
+    - text: Digest
+  - region "Small notes from the whole house." [ref=e33]:
+    - heading "Small notes from the whole house." [level=2] [ref=e35]
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - figure [ref=e39]:
+          - img "Editorial group portrait crop" [ref=e40]
+        - figure [ref=e41]:
+          - img "Layered paper and blueprint editorial still life" [ref=e42]
+      - generic "Business unit highlights" [ref=e43]:
+        - article [ref=e44]:
+          - generic [ref=e45]: Summit House
+        - article [ref=e46]:
+          - generic [ref=e47]: Oust
+        - article [ref=e48]:
+          - generic [ref=e49]: Ritual
+        - article [ref=e50]:
+          - generic [ref=e51]: Wild Places
+        - article [ref=e52]:
+          - generic [ref=e53]: Meridian
+  - region [ref=e54]:
+    - heading [level=2] [ref=e55]
+  - region "Recent signal from LinkedIn." [ref=e57]:
+    - heading "Recent signal from LinkedIn." [level=2] [ref=e59]
+    - generic "LinkedIn posts from the week" [ref=e60]:
+      - generic [ref=e61]:
+        - figure "01 / Summit House Post capture" [ref=e62]:
+          - img "LinkedIn post visual placeholder for Summit House" [ref=e63]
+        - figure "02 / Oust Studio signal" [ref=e64]:
+          - img "LinkedIn post visual placeholder for Oust" [ref=e65]
+        - figure "03 / Ritual Feed artifact" [ref=e66]:
+          - img "LinkedIn post visual placeholder for Ritual" [ref=e67]
+        - figure "04 / Wild Places Weekly pull" [ref=e68]:
+          - img "LinkedIn post visual placeholder for Wild Places" [ref=e69]
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e72]: Summit House / LinkedIn
+          - heading "A good post should not disappear just because the feed moved on." [level=3] [ref=e73]
+        - generic [ref=e74]:
+          - button "Previous LinkedIn post" [ref=e75] [cursor=pointer]:
+            - generic [ref=e76]: Prev
+          - button "Next LinkedIn post" [ref=e79] [cursor=pointer]:
+            - generic [ref=e80]: Next
+      - generic "Choose a LinkedIn post" [ref=e81]:
+        - button "01 / Summit House" [ref=e82] [cursor=pointer]:
+          - generic [ref=e83]: 01 / Summit House
+        - button "02 / Oust" [ref=e84] [cursor=pointer]:
+          - generic [ref=e85]: 02 / Oust
+        - button "03 / Ritual" [ref=e86] [cursor=pointer]:
+          - generic [ref=e87]: 03 / Ritual
+        - button "04 / Wild Places" [ref=e88] [cursor=pointer]:
+          - generic [ref=e89]: 04 / Wild Places
+  - generic [ref=e90]:
+    - img
+    - generic [ref=e91]:
+      - generic [ref=e92]: Archive
+      - generic [ref=e93]: Previous Issue
+      - generic [ref=e94]: Next Issue

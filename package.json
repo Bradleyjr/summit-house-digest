@@ -1,0 +1,24 @@
+{
+  "name": "summit-house-digest-prototype",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "create": "node scripts/create-issue.mjs",
+    "import-sheet": "node scripts/import-sheet-export.mjs",
+    "init-wizard": "node scripts/init-wizard-context.mjs",
+    "publish": "node scripts/publish-issue.mjs",
+    "qa": "node scripts/qa-issue.mjs",
+    "render": "node scripts/render-issue.mjs",
+    "render:current": "node scripts/render-issue.mjs 2026-05-25",
+    "slack:dev": "node slack-app/server.mjs",
+    "slack:manifest": "node slack-app/render-manifest.mjs",
+    "slack:setup": "node slack-app/setup-check.mjs",
+    "slack:smoke": "node slack-app/smoke-test.mjs",
+    "slack:test": "node slack-app/integration-test.mjs",
+    "validate": "node scripts/validate-issue.mjs",
+    "preview": "python3 -m http.server 4173"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}

@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <base href="../../" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Summit House Digest Prototype</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="issue issue--audrey-a">
+
+      <section class="masthead section-reveal" aria-labelledby="issue-title">
+        <canvas class="masthead__print-field" aria-hidden="true"></canvas>
+        <div class="masthead__frame">
+          <img
+            class="masthead__logo"
+            src="assets/images/summit-house-logotype.svg"
+            alt="Summit House"
+          />
+          <div class="masthead__meta">
+            <span>Summit House Digest</span>
+            <span>Issue 04</span>
+            <span>Week of May 25</span>
+          </div>
+          <h1 id="issue-title" class="masthead__title">
+            The week the house started taking notes.
+          </h1>
+
+        </div>
+        <aside class="masthead__index" aria-label="Issue sections">
+          <a href="#week">Week</a>
+          <a href="#feature">Staff Feature</a>
+          <a href="#business-units">BU Notes</a>
+          <a href="#lessons">Lessons</a>
+          <a href="#sharing">Sharing</a>
+        </aside>
+      </section>
+
+
+      <section id="week" class="week-grid week-grid--single section-reveal" aria-labelledby="week-title">
+        <div class="section-coordinate">01 / This Week</div>
+        <h2 id="week-title" class="week-grid__title">The week<br />in one place.</h2>
+        <div class="week-grid__items">
+          <article class="week-card week-card--occasions">
+
+
+
+            <ul class="week-card__items">
+              <li class="week-card__item week-card__item--birthdays" data-occasion="birthdays"><span>Birthdays</span><p>Lauren S. and Matt P. are on the board this week.</p></li>
+              <li class="week-card__item week-card__item--events" data-occasion="events"><span>Events</span><p>Thursday reviews stay clear before the afternoon handoff.</p></li>
+              <li class="week-card__item week-card__item--milestones" data-occasion="milestones"><span>Milestones</span><p>Creative, production, partnerships, and ops each have one useful win to carry forward.</p></li>
+              <li class="week-card__item week-card__item--watch" data-occasion="watch"><span>Watch</span><p>A few room and calendar edges need a quick check before booking.</p></li>
+            </ul>
+            <div class="week-card__controls" aria-label="Cycle occasion cards">
+              <button type="button" class="week-card__control" data-occasion-prev aria-label="Previous occasion card"><span>Prev</span></button>
+              <button type="button" class="week-card__control" data-occasion-next aria-label="Next occasion card"><span>Next</span></button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+
+      <section id="feature" class="feature-spread section-reveal" aria-labelledby="feature-title">
+        <div class="feature-spread__copy">
+          <div class="section-coordinate">02 / Staff Feature</div>
+          <p class="feature-spread__kicker">Staff feature</p>
+          <h2 id="feature-title">Audrey is giving the week somewhere to land.</h2>
+          <p>
+            The Digest is becoming a weekly rhythm for the house: a place for the useful links, small wins, sharp moments, and context that should not disappear after one thread.
+          </p>
+        </div>
+        <div class="feature-spread__image-stack" aria-label="Summit House brand imagery">
+          <figure class="image-slab image-slab--portrait">
+            <img src="assets/images/feature/portrait-seated.png" alt="Staff feature portrait placeholder" />
+          </figure>
+          <figure class="image-slab image-slab--chair">
+            <img src="assets/images/feature/red-chair.png" alt="Project moment editorial image placeholder" />
+          </figure>
+          <figure class="image-slab image-slab--fabric">
+            <img src="assets/images/feature/blue-fabric.png" alt="Supporting visual from the highlighted week" />
+          </figure>
+          <figure class="image-slab image-slab--paper">
+            <img src="assets/images/feature/paper-resume.png" alt="Workflow document image placeholder" />
+          </figure>
+          <figure class="image-slab image-slab--sky-chair">
+            <img src="assets/images/feature/digestimage6.png" alt="Halftone chair landscape over reflective water" />
+          </figure>
+        </div>
+      </section>
+
+
+      <section id="business-units" class="bu-section section-reveal" aria-labelledby="bu-title">
+        <div class="bu-section__header">
+          <div class="section-coordinate">03 / Business Units</div>
+          <h2 id="bu-title">Summit House first, with notes from the rest of the house.</h2>
+        </div>
+        <div class="bu-editorial">
+          <div class="bu-intro">
+            <div class="bu-intro__copy">
+              <p class="bu-editorial__lead">
+                The week has a place to gather.
+              </p>
+              <p class="bu-intro__note">
+                Summit House leads the read. The agencies stay close behind as sharp single-line signals.
+              </p>
+            </div>
+            <figure class="bu-intro__image">
+              <img src="assets/images/feature/group-fisheye.png" alt="Editorial group portrait crop" />
+            </figure>
+            <figure class="bu-intro__thumb">
+              <img src="assets/images/generated/signal-meridian.png" alt="Layered paper and blueprint editorial still life" />
+            </figure>
+          </div>
+          <div class="bu-notes-list bu-notes-list--sh-primary" aria-label="Business unit highlights">
+            <article class="is-primary" data-preview="assets/images/generated/cat-paper-sighting.png">
+              <span>Summit House</span>
+              <p>The Digest is moving from good idea to weekly house rhythm.</p>
+            </article>
+            <article class="" data-preview="assets/images/generated/signal-oust.png">
+              <span>Oust</span>
+              <p>Campaign review is tightening around the clearest story.</p>
+            </article>
+            <article class="" data-preview="assets/images/generated/signal-ritual.png">
+              <span>Ritual</span>
+              <p>The next shoot plan is simpler, sharper, and easier to hand off.</p>
+            </article>
+            <article class="" data-preview="assets/images/generated/signal-wild-places.png">
+              <span>Wild Places</span>
+              <p>Effects language is settling into something people can actually use.</p>
+            </article>
+            <article class="" data-preview="assets/images/generated/signal-meridian.png">
+              <span>Meridian</span>
+              <p>The handoff layer is getting quieter, which usually means it is working.</p>
+            </article>
+            <article class="" data-preview="assets/images/generated/texture-halftone-cloud.png">
+              <span>Big Bird</span>
+              <p>The latest social pull has a brighter thread worth keeping in the house mix.</p>
+            </article>
+          </div>
+          <div class="agency-preview" aria-hidden="true">
+            <img src="assets/images/summit-house-logomark-ink.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+
+      <section id="lessons" class="lesson-band section-reveal" aria-labelledby="lesson-title">
+        <div class="section-coordinate">04 / Lessons Learned</div>
+        <h2 id="lesson-title">Leave room for the part people remember.</h2>
+        <figure class="lesson-band__image">
+          <img src="assets/images/generated/lesson-still-life.png" alt="Folded paper, glass of water, pencil, and soft shadow" />
+        </figure>
+        <div class="lesson-band__note">
+          <p>
+            The fastest version is not always the smallest one. A little structure up front can make the creative part feel less fragile later, and it gives the weird, memorable part a better chance to survive.
+          </p>
+          <div class="lesson-band__credit">Shared by the house / edited for the issue</div>
+        </div>
+      </section>
+
+
+      <section id="sharing" class="sharing-section section-reveal" aria-labelledby="sharing-title">
+        <div class="sharing-section__title">
+          <div class="section-coordinate">05 / What We&#39;re Sharing</div>
+          <h2 id="sharing-title">Seen in the feed, saved for the house.</h2>
+        </div>
+        <div class="share-carousel share-observatory" aria-label="LinkedIn posts from the week">
+          <div class="share-carousel__stage share-observatory__wall">
+            <figure class="share-post is-active" data-title="A studio update is only useful if people can find it again." data-source="Summit House / LinkedIn" data-index="01">
+              <img src="assets/images/generated/cat-paper-sighting.png" alt="LinkedIn post visual placeholder for Summit House" />
+              <figcaption><span>01 / Summit House</span><strong>House signal</strong></figcaption>
+            </figure>
+            <figure class="share-post" data-title="The best campaign notes tend to sound obvious once they are finally clear." data-source="Oust / LinkedIn" data-index="02">
+              <img src="assets/images/generated/signal-oust.png" alt="LinkedIn post visual placeholder for Oust" />
+              <figcaption><span>02 / Oust</span><strong>Campaign note</strong></figcaption>
+            </figure>
+            <figure class="share-post" data-title="A production still can carry more context than a paragraph." data-source="Ritual / LinkedIn" data-index="03">
+              <img src="assets/images/generated/signal-ritual.png" alt="LinkedIn post visual placeholder for Ritual" />
+              <figcaption><span>03 / Ritual</span><strong>Set note</strong></figcaption>
+            </figure>
+            <figure class="share-post" data-title="A good effect should feel like a point of view, not a dropdown." data-source="Wild Places / LinkedIn" data-index="04">
+              <img src="assets/images/generated/signal-wild-places.png" alt="LinkedIn post visual placeholder for Wild Places" />
+              <figcaption><span>04 / Wild Places</span><strong>Tool note</strong></figcaption>
+            </figure>
+            <figure class="share-post" data-title="A small social moment can still carry the whole mood of the week." data-source="Big Bird / LinkedIn" data-index="05">
+              <img src="assets/images/generated/texture-halftone-cloud.png" alt="LinkedIn post visual placeholder for Big Bird" />
+              <figcaption><span>05 / Big Bird</span><strong>Social note</strong></figcaption>
+            </figure>
+          </div>
+          <div class="share-theater__details share-observatory__details">
+            <div class="share-carousel__copy" aria-live="polite">
+              <span class="share-carousel__source">Summit House / LinkedIn</span>
+              <h3>A studio update is only useful if people can find it again.</h3>
+              <p>
+                A weekly pull from the posts, screenshots, launches, and small public signals worth bringing back into the room.
+              </p>
+            </div>
+            <div class="share-carousel__controls">
+              <button type="button" class="share-carousel__button" data-carousel-prev aria-label="Previous LinkedIn post">
+                <span>Prev</span>
+              </button>
+              <div class="share-carousel__progress" aria-hidden="true">
+                <span></span>
+              </div>
+              <button type="button" class="share-carousel__button" data-carousel-next aria-label="Next LinkedIn post">
+                <span>Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="share-theater__thumbs share-observatory__rail" aria-label="Choose a LinkedIn post">
+            <button type="button" class="share-thumb is-active" data-post-index="0">
+              <img src="assets/images/generated/cat-paper-sighting.png" alt="" />
+              <span>01 / Summit House</span>
+            </button>
+            <button type="button" class="share-thumb" data-post-index="1">
+              <img src="assets/images/generated/signal-oust.png" alt="" />
+              <span>02 / Oust</span>
+            </button>
+            <button type="button" class="share-thumb" data-post-index="2">
+              <img src="assets/images/generated/signal-ritual.png" alt="" />
+              <span>03 / Ritual</span>
+            </button>
+            <button type="button" class="share-thumb" data-post-index="3">
+              <img src="assets/images/generated/signal-wild-places.png" alt="" />
+              <span>04 / Wild Places</span>
+            </button>
+            <button type="button" class="share-thumb" data-post-index="4">
+              <img src="assets/images/generated/texture-halftone-cloud.png" alt="" />
+              <span>05 / Big Bird</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+
+      <footer class="issue-footer section-reveal">
+        <img
+          class="issue-footer__mascot"
+          src="assets/images/summit-house-cat-mascot.svg"
+          alt=""
+          aria-hidden="true"
+        />
+        <div class="issue-footer__meta">
+          <span>Archive</span>
+          <span>Previous Issue</span>
+          <span>Next Issue</span>
+        </div>
+      </footer>
+    </main>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script src="assets/vendor/ScrollTrigger.min.js"></script>
+    <script>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+            }
+          });
+        },
+        { threshold: 0.14 }
+      );
+
+      document.querySelectorAll(".section-reveal").forEach((section) => observer.observe(section));
+
+      const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const canUseGSAP = window.gsap && !prefersReducedMotion;
+
+      if (canUseGSAP) {
+        gsap.defaults({ ease: "power3.out" });
+
+        const observeOnce = (target, callback, options = { threshold: 0.28 }) => {
+          if (!target) return;
+          const onceObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              onceObserver.unobserve(entry.target);
+              callback(entry.target);
+            });
+          }, options);
+          onceObserver.observe(target);
+        };
+
+        const weekSection = document.querySelector("#week");
+        const weekCards = document.querySelectorAll(".week-card");
+        const weekCounts = document.querySelectorAll(".week-card strong[data-count]");
+
+        gsap.set(weekCards, {
+          autoAlpha: 0,
+          y: 42,
+          scaleY: 0.96,
+          transformOrigin: "50% 100%",
+        });
+        weekCounts.forEach((count) => {
+          count.textContent = "0";
+        });
+
+        observeOnce(weekSection, () => {
+          const weekTimeline = gsap.timeline();
+          weekTimeline.to(weekCards, {
+            autoAlpha: 1,
+            y: 0,
+            scaleY: 1,
+            duration: 0.72,
+            stagger: { each: 0.08, from: "start" },
+          });
+          weekCounts.forEach((count, index) => {
+            const counter = { value: 0 };
+            weekTimeline.to(
+              counter,
+              {
+                value: Number(count.dataset.count),
+                duration: 0.92,
+                ease: "power2.out",
+                snap: { value: 1 },
+                onUpdate: () => {
+                  count.textContent = String(counter.value);
+                },
+              },
+              0.16 + index * 0.08
+            );
+          });
+        });
+
+        const lessonSection = document.querySelector("#lessons");
+        const lessonTitle = document.querySelector("#lesson-title");
+        const lessonImage = document.querySelector(".lesson-band__image");
+        const lessonImagePhoto = document.querySelector(".lesson-band__image img");
+        const lessonSupporting = document.querySelectorAll(".lesson-band p, .lesson-band__credit");
+
+        gsap.set(lessonTitle, {
+          autoAlpha: 0,
+          y: 44,
+        });
+        gsap.set(lessonImage, {
+          autoAlpha: 0,
+          x: 58,
+          y: -18,
+          scaleY: 0.84,
+          clipPath: "inset(0 0 100% 0)",
+          transformOrigin: "50% 100%",
+        });
+        gsap.set(lessonImagePhoto, { scale: 1.16, y: 22 });
+        gsap.set(lessonSupporting, { autoAlpha: 0, y: 28 });
+
+        observeOnce(lessonSection, () => {
+          gsap
+            .timeline()
+            .to(lessonTitle, {
+              autoAlpha: 1,
+              y: 0,
+              duration: 0.86,
+            })
+            .to(
+              lessonImage,
+              {
+                autoAlpha: 1,
+                x: 0,
+                y: 0,
+                scaleY: 1,
+                clipPath: "inset(0 0 0% 0)",
+                duration: 0.88,
+                ease: "expo.out",
+              },
+              "-=0.5"
+            )
+            .to(
+              lessonImagePhoto,
+              {
+                scale: 1.04,
+                y: 0,
+                duration: 1.15,
+                ease: "power3.out",
+              },
+              "-=0.88"
+            )
+            .to(
+              lessonSupporting,
+              {
+                autoAlpha: 1,
+                y: 0,
+                duration: 0.58,
+                stagger: 0.08,
+              },
+              "-=0.86"
+            );
+        });
+
+        const carousel = document.querySelector(".share-carousel");
+        const posts = [...document.querySelectorAll(".share-post")];
+        const postThumbs = [...document.querySelectorAll(".share-thumb")];
+        const carouselSource = document.querySelector(".share-carousel__source");
+        const carouselTitle = document.querySelector(".share-carousel__copy h3");
+        const carouselProgress = document.querySelector(".share-carousel__progress span");
+        let activePost = 0;
+
+        const layoutPosts = (instant = false) => {
+          posts.forEach((post, index) => {
+            const isActive = index === activePost;
+            const target = {
+              x: 0,
+              y: 0,
+              rotation: 0,
+              scale: isActive ? 1 : 0.985,
+              opacity: isActive ? 1 : 0.66,
+              filter: isActive ? "grayscale(0) contrast(1.05) saturate(0.94)" : "grayscale(0.28) contrast(0.9) saturate(0.76)",
+              zIndex: isActive ? 3 : 1,
+              duration: instant ? 0 : 0.58,
+              ease: "expo.out",
+            };
+            post.classList.toggle("is-active", isActive);
+            gsap.to(post, target);
+          });
+          postThumbs.forEach((thumb, index) => {
+            thumb.classList.toggle("is-active", index === activePost);
+          });
+          const active = posts[activePost];
+          carouselSource.textContent = active.dataset.source;
+          carouselTitle.textContent = active.dataset.title;
+          gsap.to(carouselProgress, {
+            scaleX: (activePost + 1) / posts.length,
+            duration: instant ? 0 : 0.48,
+            ease: "power3.out",
+          });
+        };
+
+        const showPost = (nextPost) => {
+          if (nextPost === activePost) return;
+          activePost = (nextPost + posts.length) % posts.length;
+          gsap
+            .timeline()
+            .to(".share-carousel__copy", {
+              autoAlpha: 0,
+              y: 12,
+              duration: 0.18,
+              ease: "power2.in",
+            })
+            .add(() => layoutPosts())
+            .to(".share-carousel__copy", {
+              autoAlpha: 1,
+              y: 0,
+              duration: 0.42,
+              ease: "power3.out",
+            });
+        };
+
+        if (posts.length) {
+          gsap.set(posts, { transformOrigin: "50% 50%" });
+          gsap.set(carouselProgress, { scaleX: 1 / posts.length });
+          layoutPosts(true);
+          observeOnce(carousel, () => {
+            gsap.from(posts, {
+              opacity: 0,
+              y: 36,
+              rotation: 0,
+              duration: 0.8,
+              ease: "expo.out",
+              onComplete: () => layoutPosts(true),
+            });
+          });
+
+          document.querySelector("[data-carousel-prev]")?.addEventListener("click", () => showPost(activePost - 1));
+          document.querySelector("[data-carousel-next]")?.addEventListener("click", () => showPost(activePost + 1));
+          postThumbs.forEach((thumb) => {
+            thumb.addEventListener("click", () => showPost(Number(thumb.dataset.postIndex)));
+          });
+
+          carousel?.addEventListener("pointermove", (event) => {
+            const active = posts[activePost];
+            const rect = carousel.getBoundingClientRect();
+            const x = (event.clientX - rect.left) / rect.width - 0.5;
+            const y = (event.clientY - rect.top) / rect.height - 0.5;
+            gsap.to(active, {
+              x: x * 6,
+              y: y * 5,
+              rotation: 0,
+              duration: 0.46,
+              ease: "power3.out",
+              overwrite: "auto",
+            });
+          });
+
+          carousel?.addEventListener("pointerleave", () => layoutPosts());
+        }
+      }
+
+      const preview = document.querySelector(".agency-preview");
+      const previewImage = preview?.querySelector("img");
+      const agencyRows = document.querySelectorAll(".bu-notes-list article");
+      const canAnimatePreview =
+        preview &&
+        previewImage &&
+        agencyRows.length &&
+        canUseGSAP;
+
+      if (canAnimatePreview) {
+        document.body.appendChild(preview);
+        const movePreview = gsap.quickTo(preview, "x", { duration: 0.34, ease: "power3.out" });
+        const movePreviewY = gsap.quickTo(preview, "y", { duration: 0.34, ease: "power3.out" });
+        const getPreviewPosition = (event) => {
+          const width = preview.offsetWidth || 320;
+          const height = preview.offsetHeight || 240;
+          const x = Math.min(window.innerWidth - width - 18, Math.max(18, event.clientX + 26));
+          const y = Math.min(window.innerHeight - height - 18, Math.max(18, event.clientY - 92));
+          return { x, y };
+        };
+        const positionPreview = (event, immediate = false) => {
+          const { x, y } = getPreviewPosition(event);
+          if (immediate) {
+            gsap.set(preview, { x, y });
+            return;
+          }
+          movePreview(x);
+          movePreviewY(y);
+        };
+        gsap.set(preview, { autoAlpha: 0, scaleX: 0.18, scaleY: 0.02, rotation: -1 });
+
+        agencyRows.forEach((row) => {
+          row.addEventListener("pointerenter", (event) => {
+            previewImage.src = row.dataset.preview;
+            gsap.killTweensOf(preview);
+            gsap.killTweensOf(row);
+            positionPreview(event, true);
+            gsap
+              .timeline()
+              .set(row, { "--line-scale": 0, "--line-offset": "-2px" })
+              .to(row, { "--line-scale": 1, duration: 0.38, ease: "expo.out" })
+              .to(row, { "--line-offset": "2px", duration: 0.045, repeat: 3, yoyo: true }, 0.05)
+              .to(row, { "--line-offset": "0px", duration: 0.12, ease: "power2.out" });
+            gsap
+              .timeline()
+              .set(preview, { autoAlpha: 1, scaleX: 0.18, scaleY: 0.02, rotation: -1 })
+              .to(preview, { scaleY: 1.08, duration: 0.12, ease: "power2.out" })
+              .to(preview, { scaleX: 1, scaleY: 1, rotation: 0, duration: 0.24, ease: "expo.out" })
+              .fromTo(
+                preview,
+                { filter: "contrast(1.8) saturate(0.2) brightness(1.7)" },
+                { filter: "contrast(1.08) saturate(0.92) brightness(0.96)", duration: 0.28, ease: "power2.out" },
+                0
+              );
+          });
+
+          row.addEventListener("pointermove", (event) => {
+            positionPreview(event);
+          });
+
+          row.addEventListener("pointerleave", () => {
+            gsap.killTweensOf(preview);
+            gsap.killTweensOf(row);
+            gsap.to(row, {
+              "--line-scale": 0,
+              "--line-offset": "0px",
+              duration: 0.28,
+              ease: "power3.inOut",
+            });
+            gsap.to(preview, {
+              autoAlpha: 0,
+              scaleX: 0.26,
+              scaleY: 0.04,
+              filter: "contrast(2) saturate(0) brightness(1.8)",
+              duration: 0.16,
+              ease: "power3.in",
+            });
+          });
+        });
+      }
+    </script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

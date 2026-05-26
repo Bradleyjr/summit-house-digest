@@ -1,0 +1,10 @@
+node_modules/
+.env
+*.env
+# QA screenshots at root
+qa-*.png
+debug-*.png
+qa-a-*.png
+# Handoff zips (large binary)
+handoff/*.zip
+handoff/audrey-publishing-kit/wizard-skill/

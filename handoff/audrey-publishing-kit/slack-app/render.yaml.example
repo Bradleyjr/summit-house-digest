@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: summit-digest-slack-app
+    env: docker
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: SLACK_SIGNING_SECRET
+        sync: false
+      - key: SLACK_BOT_TOKEN
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: ANTHROPIC_MODEL
+        value: claude-3-5-sonnet-latest
+      - key: SUMMIT_DIGEST_PREVIOUS_ISSUE
+        value: 2026-05-25-audrey-a
+      - key: SUMMIT_DIGEST_PUBLIC_BASE_URL
+        value: https://summit-house-digest-prototype.netlify.app
+      - key: SUMMIT_DIGEST_ENABLE_DEPLOY
+        value: "false"
+

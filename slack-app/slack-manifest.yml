@@ -1,0 +1,34 @@
+display_information:
+  name: Summit Digest
+  description: Guided Summit House Digest publishing assistant
+  background_color: "#123035"
+features:
+  bot_user:
+    display_name: Summit Digest
+    always_online: false
+  slash_commands:
+    - command: /new-digest
+      url: https://YOUR_PUBLIC_HOST/slack/commands
+      description: Start a new Summit House Digest issue
+      usage_hint: "week=2026-06-01 prev=2026-05-25-audrey-a optional notes"
+      should_escape: false
+    - command: /summit-digest
+      url: https://YOUR_PUBLIC_HOST/slack/commands
+      description: Start or manage a Summit House Digest issue
+      usage_hint: "new week=2026-06-01 prev=2026-05-25-audrey-a optional notes"
+      should_escape: false
+oauth_config:
+  scopes:
+    bot:
+      - commands
+      - chat:write
+      - channels:history
+      - groups:history
+settings:
+  interactivity:
+    is_enabled: true
+    request_url: https://YOUR_PUBLIC_HOST/slack/interactions
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false
+

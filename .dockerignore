@@ -1,0 +1,10 @@
+node_modules
+.git
+.DS_Store
+handoff/audrey-publishing-kit.zip
+context
+digest/2099-*
+issues/2099-*
+qa-*.png
+debug-*.png
+
