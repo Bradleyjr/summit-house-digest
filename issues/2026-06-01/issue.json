@@ -1,0 +1,243 @@
+{
+  "title": "Summit House Digest",
+  "issueNumber": "05",
+  "weekLabel": "Week of June 1",
+  "sources": {
+    "linkedinLookbackDays": 7,
+    "linkedinAccounts": [
+      "https://www.linkedin.com/company/summithouse",
+      "https://www.linkedin.com/company/oustagency",
+      "https://www.linkedin.com/company/ritual-film-co",
+      "https://www.linkedin.com/company/wild-places",
+      "https://www.linkedin.com/company/meridian-tech-partners",
+      "https://www.linkedin.com/company/big-bird-agency",
+      "https://www.linkedin.com/in/jeffreythomascroft/",
+      "https://www.linkedin.com/in/carsonnyquist/",
+      "https://www.linkedin.com/in/romangrimaldi/",
+      "https://www.linkedin.com/in/stevencundari/",
+      "https://www.linkedin.com/in/dan-duncan-8817725/",
+      "https://www.linkedin.com/in/lauren-schleyer-7757a367/",
+      "https://www.linkedin.com/in/mattpfefferproducer/",
+      "https://www.linkedin.com/in/austin-klubenspies/",
+      "https://www.linkedin.com/in/allancsmith/",
+      "https://www.linkedin.com/in/audrey-velez-16932b95/"
+    ]
+  },
+  "footer": {
+    "mascot": {
+      "src": "assets/images/summit-house-cat-mascot.svg",
+      "alt": ""
+    },
+    "links": [
+      "Archive",
+      "Previous Issue",
+      "Next Issue"
+    ]
+  },
+  "lessons": {
+    "coordinate": "04 / Lessons Learned",
+    "title": "Leave room for the part people remember.",
+    "image": {
+      "src": "assets/images/generated/lesson-still-life.png",
+      "alt": "Folded paper, glass of water, pencil, and soft shadow"
+    },
+    "body": "The fastest version is not always the smallest one. A little structure up front can make the creative part feel less fragile later, and it gives the weird, memorable part a better chance to survive.",
+    "credit": "Shared by the house / edited for the issue"
+  },
+  "slug": "2026-06-01",
+  "layoutVariant": "audrey-a",
+  "masthead": {
+    "headline": "The week the house started taking notes.",
+    "dek": "",
+    "logo": {
+      "src": "assets/images/summit-house-logotype.svg",
+      "alt": "Summit House"
+    },
+    "nav": [
+      {
+        "label": "Week",
+        "href": "#week"
+      },
+      {
+        "label": "Staff Feature",
+        "href": "#feature"
+      },
+      {
+        "label": "BU Notes",
+        "href": "#business-units"
+      },
+      {
+        "label": "Lessons",
+        "href": "#lessons"
+      },
+      {
+        "label": "Sharing",
+        "href": "#sharing"
+      }
+    ]
+  },
+  "week": {
+    "coordinate": "01 / This Week",
+    "title": "The week\nin one place.",
+    "variant": "single-block",
+    "cards": [
+      {
+        "label": "Occasions",
+        "variant": "occasions",
+        "hideIntro": true,
+        "text": "A single weekly block for the things people actually need to remember.",
+        "items": [
+          {
+            "label": "Birthdays",
+            "text": "No birthdays on the board this week — back to the usual rotation next time."
+          },
+          {
+            "label": "Events",
+            "text": "WP team meeting kicks off Monday at 11; Brad and Austin sync Thursday afternoon."
+          },
+          {
+            "label": "Milestones",
+            "text": "XXIO Demo Day creative is through QC — carousels and the mp4 masters are in final notes."
+          },
+          {
+            "label": "Watch",
+            "text": "Olivia is out this week, so keep Wild Places handoffs clear and front-loaded."
+          }
+        ]
+      }
+    ]
+  },
+  "feature": {
+    "coordinate": "02 / Staff Feature",
+    "kicker": "Staff feature",
+    "title": "Audrey is giving the week somewhere to land.",
+    "body": "The Digest is becoming a weekly rhythm for the house: a place for the useful links, small wins, sharp moments, and context that should not disappear after one thread.",
+    "images": [
+      {
+        "className": "image-slab--portrait",
+        "src": "assets/images/feature/portrait-seated.png",
+        "alt": "Staff feature portrait placeholder"
+      },
+      {
+        "className": "image-slab--chair",
+        "src": "assets/images/feature/red-chair.png",
+        "alt": "Project moment editorial image placeholder"
+      },
+      {
+        "className": "image-slab--fabric",
+        "src": "assets/images/feature/blue-fabric.png",
+        "alt": "Supporting visual from the highlighted week"
+      },
+      {
+        "className": "image-slab--paper",
+        "src": "assets/images/feature/paper-resume.png",
+        "alt": "Workflow document image placeholder"
+      },
+      {
+        "className": "image-slab--sky-chair",
+        "src": "assets/images/feature/digestimage6.png",
+        "alt": "Halftone chair landscape over reflective water"
+      }
+    ]
+  },
+  "businessUnits": {
+    "coordinate": "03 / Business Units",
+    "title": "Summit House first, with notes from the rest of the house.",
+    "lead": "The week has a place to gather.",
+    "note": "Summit House leads the read. The agencies stay close behind as sharp single-line signals.",
+    "primaryImage": {
+      "src": "assets/images/feature/group-fisheye.png",
+      "alt": "Editorial group portrait crop"
+    },
+    "supportingImage": {
+      "src": "assets/images/generated/signal-meridian.png",
+      "alt": "Layered paper and blueprint editorial still life"
+    },
+    "variant": "sh-primary",
+    "notes": [
+      {
+        "unit": "Summit House",
+        "text": "The Digest is moving from good idea to weekly house rhythm.",
+        "preview": "assets/images/generated/cat-paper-sighting.png",
+        "featured": true
+      },
+      {
+        "unit": "Oust",
+        "text": "Campaign review is tightening around the clearest story.",
+        "preview": "assets/images/generated/signal-oust.png"
+      },
+      {
+        "unit": "Ritual",
+        "text": "The next shoot plan is simpler, sharper, and easier to hand off.",
+        "preview": "assets/images/generated/signal-ritual.png"
+      },
+      {
+        "unit": "Wild Places",
+        "text": "XXIO Demo Day cut is in final QC, with the team regrouping Monday to close it out.",
+        "preview": "assets/images/generated/signal-wild-places.png"
+      },
+      {
+        "unit": "Meridian",
+        "text": "The handoff layer is getting quieter, which usually means it is working.",
+        "preview": "assets/images/generated/signal-meridian.png"
+      },
+      {
+        "unit": "Big Bird",
+        "text": "The latest social pull has a brighter thread worth keeping in the house mix.",
+        "preview": "assets/images/generated/texture-halftone-cloud.png"
+      }
+    ]
+  },
+  "sharing": {
+    "coordinate": "05 / What We're Sharing",
+    "title": "Seen in the feed, saved for the house.",
+    "body": "A weekly pull from the posts, screenshots, launches, and small public signals worth bringing back into the room.",
+    "posts": [
+      {
+        "source": "Summit House / LinkedIn",
+        "index": "01",
+        "unit": "Summit House",
+        "title": "A studio update is only useful if people can find it again.",
+        "caption": "House signal",
+        "image": "assets/images/generated/cat-paper-sighting.png",
+        "alt": "LinkedIn post visual placeholder for Summit House"
+      },
+      {
+        "source": "Oust / LinkedIn",
+        "index": "02",
+        "unit": "Oust",
+        "title": "The best campaign notes tend to sound obvious once they are finally clear.",
+        "caption": "Campaign note",
+        "image": "assets/images/generated/signal-oust.png",
+        "alt": "LinkedIn post visual placeholder for Oust"
+      },
+      {
+        "source": "Ritual / LinkedIn",
+        "index": "03",
+        "unit": "Ritual",
+        "title": "A production still can carry more context than a paragraph.",
+        "caption": "Set note",
+        "image": "assets/images/generated/signal-ritual.png",
+        "alt": "LinkedIn post visual placeholder for Ritual"
+      },
+      {
+        "source": "Wild Places / LinkedIn",
+        "index": "04",
+        "unit": "Wild Places",
+        "title": "A good effect should feel like a point of view, not a dropdown.",
+        "caption": "Tool note",
+        "image": "assets/images/generated/signal-wild-places.png",
+        "alt": "LinkedIn post visual placeholder for Wild Places"
+      },
+      {
+        "source": "Big Bird / LinkedIn",
+        "index": "05",
+        "unit": "Big Bird",
+        "title": "A small social moment can still carry the whole mood of the week.",
+        "caption": "Social note",
+        "image": "assets/images/generated/texture-halftone-cloud.png",
+        "alt": "LinkedIn post visual placeholder for Big Bird"
+      }
+    ]
+  }
+}
