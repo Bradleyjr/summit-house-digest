@@ -14,7 +14,16 @@ const loadPlaywright = () => {
   try {
     return require("playwright");
   } catch {
-    return require("/Users/bradley/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright");
+    console.error(
+      [
+        "Playwright is not installed in this project.",
+        "From the project root, run:",
+        "  npm install",
+        "  npx playwright install chromium",
+        "then run QA again."
+      ].join("\n")
+    );
+    process.exit(1);
   }
 };
 
@@ -64,7 +73,23 @@ const fail = (messages) => {
   process.exit(1);
 };
 
-const browser = await chromium.launch({ headless: true });
+let browser;
+try {
+  browser = await chromium.launch({ headless: true });
+} catch (error) {
+  server.close();
+  console.error(
+    [
+      "Could not launch the Chromium browser for QA.",
+      `Reason: ${error.message}`,
+      "",
+      "If this is a fresh machine, install the browser once:",
+      "  npx playwright install chromium",
+      "then run QA again."
+    ].join("\n")
+  );
+  process.exit(1);
+}
 const failures = [];
 
 for (const viewport of [
